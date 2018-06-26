@@ -22,7 +22,7 @@ print(isTimeKeeperRunning)
 os.system("cd /home/pi/Desktop/DiamondTurning && sudo git pull")
 
 if(not isTimeKeeperRunning):
-    os.system("cd && python3 Desktop/PiDataAcquisition/PiDataAcquisition/pythonTimeSync.py")
+    os.system("cd && python3 Desktop/DiamondTurning/DataAcquisition/PiDataAcquisition/pythonTimeSync.py")
 
 
 
